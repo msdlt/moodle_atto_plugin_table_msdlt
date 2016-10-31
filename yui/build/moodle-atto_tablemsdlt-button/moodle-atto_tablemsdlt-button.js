@@ -1,3 +1,5 @@
+YUI.add('moodle-atto_tablemsdlt-button', function (Y, NAME) {
+
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -1460,3 +1462,6 @@ Y.namespace('M.atto_tablemsdlt').Button = Y.Base.create('button', Y.M.editor_att
         }
     }
 });
+
+
+}, '@VERSION@', {"requires": ["moodle-editor_atto-plugin", "moodle-editor_atto-menu", "event", "event-valuechange"]});

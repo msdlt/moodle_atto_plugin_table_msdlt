@@ -15,9 +15,9 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'atto_table_msdlt', language 'en'.
+ * Strings for component 'atto_tablemsdlt', language 'en'.
  *
- * @package    atto_table_msdlt
+ * @package    atto_tablemsdlt
  * @copyright  2013 Damyon Wiese  <damyon@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -55,7 +55,7 @@ $string['none'] = 'None';
 $string['numberofcolumns'] = 'Number of columns';
 $string['numberofrows'] = 'Number of rows';
 $string['outer'] = 'Around table';
-$string['pluginname'] = 'Table';
+$string['pluginname'] = 'Table for MSDLT';
 $string['rows'] = 'Rows';
 $string['settings'] = 'Table settings';
 $string['solid'] = 'Solid';

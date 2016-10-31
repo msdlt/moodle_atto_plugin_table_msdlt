@@ -17,7 +17,7 @@
 /**
  * Atto text editor integration version file.
  *
- * @package    atto_table_msdlt
+ * @package    atto_tablemsdlt
  * @copyright  2013 Damyon Wiese  <damyon@moodle.com>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -27,7 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 /**
  * Initialise the js strings required for this module.
  */
-function atto_table_msdlt_strings_for_js() {
+function atto_tablemsdlt_strings_for_js() {
     global $PAGE;
 
     $PAGE->requires->strings_for_js(array('createtable',
@@ -64,7 +64,7 @@ function atto_table_msdlt_strings_for_js() {
                                           'dotted',
                                           'dashed',
                                           'solid'),
-                                    'atto_table_msdlt');
+                                    'atto_tablemsdlt');
 
     $PAGE->requires->strings_for_js(array('top',
                                           'bottom'),
@@ -77,9 +77,9 @@ function atto_table_msdlt_strings_for_js() {
  * @param string $options
  * @param string $foptions
  */
-function atto_table_msdlt_params_for_js($elementid, $options, $foptions) {
-    $params = array('allowBorders' => (bool) get_config('atto_table_msdlt', 'allowborders'),
-                    'allowWidth' => (bool) get_config('atto_table_msdlt', 'allowwidth'),
-                    'allowBackgroundColour' => (bool) get_config('atto_table_msdlt', 'allowbackgroundcolour'));
+function atto_tablemsdlt_params_for_js($elementid, $options, $foptions) {
+    $params = array('allowBorders' => (bool) get_config('atto_tablemsdlt', 'allowborders'),
+                    'allowWidth' => (bool) get_config('atto_tablemsdlt', 'allowwidth'),
+                    'allowBackgroundColour' => (bool) get_config('atto_tablemsdlt', 'allowbackgroundcolour'));
     return $params;
 }

@@ -1,7 +1,7 @@
 {
-  "name": "moodle-atto_table_msdlt-button",
+  "name": "moodle-atto_tablemsdlt-button",
   "builds": {
-    "moodle-atto_table_msdlt-button": {
+    "moodle-atto_tablemsdlt-button": {
       "jsfiles": [
         "button.js"
       ]

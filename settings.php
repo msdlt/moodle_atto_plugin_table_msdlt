@@ -17,40 +17,40 @@
 /**
  * Settings that allow turning on and off various table features
  *
- * @package     atto_table_msdlt
+ * @package     atto_tablemsdlt
  * @copyright   2015 Joseph Inhofer <jinhofer@umn.edu>
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$ADMIN->add('editoratto', new admin_category('atto_table_msdlt', new lang_string('pluginname', 'atto_table_msdlt')));
+$ADMIN->add('editoratto', new admin_category('atto_tablemsdlt', new lang_string('pluginname', 'atto_tablemsdlt')));
 
-$settings = new admin_settingpage('atto_table_msdlt_settings', new lang_string('settings', 'atto_table_msdlt'));
+$settings = new admin_settingpage('atto_tablemsdlt_settings', new lang_string('settings', 'atto_tablemsdlt'));
 if ($ADMIN->fulltree) {
-    $name = new lang_string('allowborder', 'atto_table_msdlt');
-    $desc = new lang_string('allowborder_desc', 'atto_table_msdlt');
+    $name = new lang_string('allowborder', 'atto_tablemsdlt');
+    $desc = new lang_string('allowborder_desc', 'atto_tablemsdlt');
     $default = 0;
 
-    $setting = new admin_setting_configcheckbox('atto_table_msdlt/allowborders',
+    $setting = new admin_setting_configcheckbox('atto_tablemsdlt/allowborders',
                                                 $name,
                                                 $desc,
                                                 $default);
     $settings->add($setting);
 
-    $name = new lang_string('allowbackgroundcolour', 'atto_table_msdlt');
+    $name = new lang_string('allowbackgroundcolour', 'atto_tablemsdlt');
     $default = 0;
 
-    $setting = new admin_setting_configcheckbox('atto_table_msdlt/allowbackgroundcolour',
+    $setting = new admin_setting_configcheckbox('atto_tablemsdlt/allowbackgroundcolour',
                                                 $name,
                                                 '',
                                                 $default);
     $settings->add($setting);
 
-    $name = new lang_string('allowwidth', 'atto_table_msdlt');
+    $name = new lang_string('allowwidth', 'atto_tablemsdlt');
     $default = 0;
 
-    $setting = new admin_setting_configcheckbox('atto_table_msdlt/allowwidth',
+    $setting = new admin_setting_configcheckbox('atto_tablemsdlt/allowwidth',
                                                 $name,
                                                 '',
                                                 $default);

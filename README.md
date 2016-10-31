@@ -1,1 +1,1 @@
-# moodle_atto_plugin_table_msdlt
+# moodle_atto_plugin_tablemsdlt

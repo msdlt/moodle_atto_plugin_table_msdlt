@@ -1,5 +1,5 @@
 {
-    "moodle-atto_table_msdlt-button": {
+    "moodle-atto_tablemsdlt-button": {
         "requires": [
             "moodle-editor_atto-plugin",
             "moodle-editor_atto-menu",
